@@ -15,15 +15,15 @@
   icon: fa-plus-square
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: Higher Education
+    i18n: high_edu
   desc:
     detail: I worked at Company B ...
-    i18n: company_b_desc
+    i18n: high_edu_desc
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: August 2012 - March 2014
+    i18n: high_edu_date
   job:
-    detail: Full Stack Developer
+    detail: 
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-graduation-cap
