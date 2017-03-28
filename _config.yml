@@ -23,12 +23,10 @@ author:  # change following line to your infomation.
 #  cv: http://cv.jarrekk.com  # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-postgres
-    - name: icon-mysql-alt
+    - name: icon-database
     - name: icon-google-developers
   skill_icon2:
     - name: icon-cplusplus
-    - name: icon-java-bold
     - name: icon-python
   desc: Hii I am Programmer who loves to code. I am also interested in Reaserch areas ML, Data Science etc. I am always seeking for a real world problems and tries to solve it with the help of Technology.  # Describe yourself.
 
