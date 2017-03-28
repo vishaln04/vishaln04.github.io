@@ -1,19 +1,19 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
+- name: Music Web Application
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  gh_user: arpit1997
+  repo: Pqusic
+  img: /static/assets/img/landing/music.png
+  desc: This is online music application which allows user to listen songs online, create playlist,save songs, assign mood to the song etc. This application directly parse songs audio and search from YouTube.
 
-- name: LeetCode
+- name: Applied CS with Android
   i18n: leetcode
-  gh_user: kamyu104
-  repo: LeetCode
+  gh_user: vishaln04
+  repo: 
   img: /static/assets/img/landing/leetcode.png
-  desc: This project is other's project. I use another request to get repo's information.
+  desc: Google Initiative project for Android Developers.
 
 - name: FamilyCODE Wchat
   i18n: familycode
