@@ -1,74 +1,63 @@
-# Site
-title:              Vishal Nagarale
-bio:                'I am a Programmer'
-description:        "Once a Programmer always be a Programmer"
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/profile.jpg'
-background:         'assets/img/back1.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_IN
-url:               
+# Welcome to Jekyll!
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
+# Website settings
+title: Vishal Nagarale
+description: Vishal's blog,use Jekyll and github pages.
+keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
+baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: http://vishaln04.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Vishaln04  # Be used at blog posts' author.
+  first_name: Vishal  # Be used at index page about me section.
+  last_name: Nagarale  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: vishaln04  # Leave blank if you don't have now
+  linkedin_id: vishal-nagarale-037b22133 # Leave blank if you don't have now
+  facebook_username: vishaln04  # Leave blank if you don't have now
+  twitter_username: vishaln04  # Leave blank if you don't have now
+  email: vishalnagarale@gmail.com  # Leave blank if you don't have now
+#  cv:   # A online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-postgres
+    - name: icon-mysql-alt
+    - name: icon-html5
+    - name: icon-css
+  skill_icon2:
+    - name: icon-c
+    - name: icon-cplusplus
+    - name: icon-java
+    - name: icon-python
+  desc: Live to Learn and Learn to Live  # Describe yourself.
+
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: vishalnagarale
+  public_key: vrqejq6I0cGbA3SdWREgeokvt5xNQEQN9dHNFVzbjBzRb4HthArUzd4N83vw2Yfi
+
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+donation: on  # type 'on'/'off' to choice display donation button at post page or not
+
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Comments
-disqus_shortname:   vishalnagarale
-
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-email:              vishalnagarale@gmail.com
-twitter:            vishaln04
-facebook:           vishaln04
-github:             vishaln04
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          vishal-nagarale-037b22133
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+  input: GFM
+  syntax_highlighter: rouge
