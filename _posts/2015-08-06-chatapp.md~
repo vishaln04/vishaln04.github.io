@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "A ChatApp with OpenSSL"
+date:   2015-08-06
+excerpt: "Summer project done in 2nd year Summer vacation"
+project: true
+tag:
+- summer
+- project
+comments: false
+---
+
+This project is intended to analyse the [SSL](http://info.ssl.com/article.aspx?id=10241) (Secure Socket Layer). In this project I with my teammates ([Saurabh Nitnavare](https://www.linkedin.com/in/saurabh-saurabhnitnaware-70b2bab0), [Mukesh Sahu](https://www.linkedin.com/in/mukesh-sahu-7681b4112) and [Mayank Padshala](https://github.com/mayankpadshala)) creates a Chat Application with different security levels. Our main intention was not to make a chat application rather we are focussing on different security levels while transferring data from user to server and back to user. We learn techniques like **CSRF**, **Middle man Attack**, **SQL Injection** to understand the attacks takes place while transffering the data and hence choose *Ruby* Framework to protect our site from all these attacks because *Ruby* in-built has that features.
