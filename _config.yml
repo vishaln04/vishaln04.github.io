@@ -11,29 +11,31 @@ img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/asset
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
-  first_name: Hub  # Be used at index page about me section.
-  last_name: Git  # Be used at index page about me section.
+  name: Vishal Nagarale  # Be used at blog posts' author.
+  first_name: Vishal  # Be used at index page about me section.
+  last_name: Nagarale  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: jarrekk  # Leave blank if you don't have now
-  linkedin_id: kun-jia-991264a2 # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
-  twitter_username: jiakun614  # Leave blank if you don't have now
-  email: me@jarrekk.com  # Leave blank if you don't have now
-  cv: http://cv.jarrekk.com  # A online CV can be printed as PDF, leave blank if you don't have now
+  github_username: vishaln04  # Leave blank if you don't have now
+  linkedin_id: vishal-nagarale-037b22133 # Leave blank if you don't have now
+  facebook_username: vishaln04  # Leave blank if you don't have now
+  twitter_username: vishaln04  # Leave blank if you don't have now
+  email: vishalnagarale@gmail.com  # Leave blank if you don't have now
+#  cv: http://cv.jarrekk.com  # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
+    - name: icon-postgres
+    - name: icon-mysql-alt
+    - name: icon-google-developers
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+    - name: icon-cplusplus
+    - name: icon-java-bold
+    - name: icon-python
+  desc: Hii I am Programmer who loves to code. I am also interested in Reaserch areas ML, Data Science etc. I am always seeking for a real world problems and tries to solve it with the help of Technology.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+  name: vishalnagarale
+  public_key: vrqejq6I0cGbA3SdWREgeokvt5xNQEQN9dHNFVzbjBzRb4HthArUzd4N83vw2Yfi
 
 # analytics
 ## google analytics
