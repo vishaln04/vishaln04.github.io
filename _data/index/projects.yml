@@ -12,10 +12,12 @@
   i18n: leetcode
   gh_user: vishaln04
   repo: 
-  img: /static/assets/img/landing/leetcode.png
+  img: /static/assets/img/landing/google.jpg
   desc: Google Initiative project for Android Developers.
 
-- name: FamilyCODE Wchat
+- name: Machine Learning
   i18n: familycode
-  img: /static/assets/img/landing/familycode.png
-  desc: This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.
+  gh_user: vishaln04
+  repo: Machine-Learning
+  img: /static/assets/img/landing/machine.jpg
+  desc: This Project is based on programs which clears the fundamentals of Machine Learning. This programs are referenced from Udacity
