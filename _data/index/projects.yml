@@ -1,13 +1,6 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Music Web Application
-  i18n: jalpc
-  gh_user: arpit1997
-  repo: Pqusic
-  img: /static/assets/img/landing/music.png
-  desc: This is online music application which allows user to listen songs online, create playlist,save songs, assign mood to the song etc. This application directly parse songs audio and search from YouTube.
-
 - name: Applied CS with Android
   i18n: leetcode
   gh_user: vishaln04
@@ -20,9 +13,19 @@
   gh_user: vishaln04
   repo: Machine-Learning
   img: /static/assets/img/landing/machine.jpg
-  desc: This Project is based on programs which clears the fundamentals of Machine Learning. This programs are referenced from Udacity
+  desc: This Project is based on programs which clears the fundamentals of Machine Learning.
+  This programs are referenced from Udacity
+
+- name: Music Web Application
+  i18n: jalpc
+  gh_user: arpit1997
+  repo: Pqusic
+  img: /static/assets/img/landing/music.png
+  desc: This is online music application which allows user to listen songs online, create playlist, save songs,
+   assign mood to the song etc. This application directly parse songs audio and search from YouTube.
 
 - name: Degrade
   i18n: Degrade
   img:  /static/assets/img/landing/visual.jpg
-  desc: This is windows phone based application which allows to identify the shape of the object when windows phone fly over it with the help of Newton's Raphson method and C#.
+  desc: This is windows phone based application which allows to identify 
+  the shape of the object when windows phone fly over it with the help of Newton's Raphson method and C#.
